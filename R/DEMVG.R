@@ -1,3 +1,9 @@
+#' Calculates the differentially expressed multivariate gene (DEMVG) score
+#' @export
+#' @param x DESeq normalized and vst transformed matrix
+#' @param t_idx The column index of treatment group
+#' @param c_idx The column index of control group
+
 DEMVG<- function(x,t_idx,c_idx) {
   stopifnot("Input x must be DESeq normalized and vst treated matrix" = is.matrix(x), ncol(x)>=2, nrow(x)>=2)
   stopifnot("Column index should be a integer vector" = is.integer(t_idx),is.integer(c_idx),all(c(t_idx,c_idx)>0))
