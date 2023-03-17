@@ -1,0 +1,15 @@
+Package: DEMVG
+Type: Package
+Title: Calculation of differentially expressed multivariate gene (DEMVG) score
+Version: 0.1.0
+Author: Jang et al.
+Maintainer: Gyuho Jang <gyuho9008@gm.gist.ac.kr>
+Description: DEMVG score measures differentially expressed genes (DEGs) in multivariate way.  
+    genes with higher rank of DEMVG score will work as more crucial DEGs.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    MASS,
+    stats
+RoxygenNote: 7.2.3
