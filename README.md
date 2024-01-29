@@ -7,4 +7,4 @@ library(DEMVG)
 ```
 
 # An example of calculating mv-glogFC 
-> mv_glogFC calculation examples.R
+mv_glogFC calculation example.R
